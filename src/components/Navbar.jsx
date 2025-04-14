@@ -17,11 +17,11 @@ const Navbar = () => {
                 <div className="logo-text-container">
                     <h1 className="logo-text">LOGO</h1>
                     <div className="mini-navbar">
-                        <a href="#">SHOP</a>
-                        <a href="#">SKILL</a>
-                        <a href="#">STORIES</a>
-                        <a href="#">ABOUT</a>
-                        <a href="#">CONTACT US</a>
+                        <a href="/shop">SHOP</a>
+                        <a href="/skill">SKILL</a>
+                        <a href="/story">STORIES</a>
+                        <a href="/about">ABOUT</a>
+                        <a href="/contactus">CONTACT US</a>
                     </div>
                 </div>
                 <div className="navbar-icons">
@@ -31,9 +31,9 @@ const Navbar = () => {
                     <div className="dropdown">
                         <FaGlobe className="icon" /> {/* Language Icon */}
                         <div className="dropdown-content">
-                            <a href="#">English</a>
-                            <a href="#">हिंदी</a>
-                            <a href="#">Español</a>
+                            <a href="/eng">English</a>
+                            <a href="/hindi">हिंदी</a>
+                            <a href="/esponal">Español</a>
                             {/* Add more languages here */}
                         </div>
                     </div>
